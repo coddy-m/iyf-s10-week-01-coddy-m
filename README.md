@@ -27,4 +27,4 @@ Simplicity is key, focusing on showcasing a few-quality projects rather than ove
 |Boring Appearance   |Using semantic tags            |
 
 ## Live Demo 
-[View Live Demo](https://coddy-m.github.io/iyf-sn10-week-01-coddy-m/)
+[View Live Demo](http://coddy-m.github.io/iyf-sn10-week-01-coddy-m/)
