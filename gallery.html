@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery – Day 4</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f8fafc;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    figure {
+      margin: 0;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+    figcaption {
+      padding: 0.9rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">Michelle.dev</div>
+    <ul class="nav-links">
+      <li><a href="index.html"   class="active">Home</a></li>
+      <li><a href="about.html">   About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html"> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <h1 style="text-align:center; margin-bottom:2.5rem;">Moments & Inspirations</h1>
+
+  <div class="gallery">
+    <figure>
+      <img src="https://images.placeholder.com/600x400/334455/ffffff?text=Nairobi+Skyline" alt="Nairobi city skyline at sunset">
+      <figcaption>Nairobi skyline – August 2025</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.placeholder.com/600x400/665544/ffffff?text=Code+&+Coffee" alt="Laptop and coffee on desk">
+      <figcaption>Best coding companion</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.placeholder.com/600x400/aa7733/ffffff?text=Market+Vibes" alt="Busy Nairobi market">
+      <figcaption>Local market energy</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.placeholder.com/600x400/3388aa/ffffff?text=UI+Sketch" alt="Hand-drawn UI wireframe">
+      <figcaption>Early UI exploration</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.placeholder.com/600x400/7733aa/ffffff?text=Team+Retreat" alt="Team photo outdoors">
+      <figcaption>Team offsite – 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.placeholder.com/600x400/44aa88/ffffff?text=Sunset+Code" alt="Coding at sunset">
+      <figcaption>Golden hour debugging</figcaption>
+    </figure>
+  </div>
+
+</body>
+</html>
