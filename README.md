@@ -13,9 +13,9 @@ Building my github portfolio site to establish a proffessional online presence, 
 - Semantic html
 
 ## Features
--About me
--Projects
--Contact
+- About me
+- Projects
+- Contact
 
 ## How to Run
 1. Clone this repository
