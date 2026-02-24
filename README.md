@@ -12,6 +12,11 @@ Building my github portfolio site to establish a proffessional online presence, 
 - HTML5
 - Semantic html
 
+## Features
+-About me
+-Projects
+-Contact
+
 ## How to Run
 1. Clone this repository
 2. Open `index.html` in your browser
